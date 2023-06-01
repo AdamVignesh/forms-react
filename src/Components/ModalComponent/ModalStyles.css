@@ -1,0 +1,26 @@
+.modal-container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 50; */
+    height: 100vh;
+    /* position: absolute; */
+    background-color: #7fffd4;
+    /* transform: translate(50%, 50%); */
+    
+}
+.modal
+{
+    display: flex;
+    position: absolute;
+    transform: translate(50%, 50%);
+}
+
+.closeBtn
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
